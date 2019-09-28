@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="APITest(failed)">
+    <parameter name="platform" value="api"/>
+    <classes>
+      <class name="API_Tests.StudentsList_CRUD">
+        <methods>
+          <include name="afterClass"/>
+          <include name="closeSuite"/>
+          <include name="startSuite"/>
+          <include name="beforeClass"/>
+          <include name="Test002_verifyStudentUpdated"/>
+          <include name="AfterAnyMethod"/>
+          <include name="BeforeAnyMethod"/>
+        </methods>
+      </class> <!-- API_Tests.StudentsList_CRUD -->
+    </classes>
+  </test> <!-- APITest(failed) -->
+  <test thread-count="5" name="DesktopTest(failed)">
+    <parameter name="platform" value="desktop"/>
+    <classes>
+      <class name="DesktopTests.CalculatorTests">
+        <methods>
+          <include name="Test003_MultiplyTwoNumbers"/>
+          <include name="Test001_SumTwoNumbers"/>
+          <include name="Test002_SubTwoNumbers"/>
+          <include name="afterClass"/>
+          <include name="closeSuite"/>
+          <include name="startSuite"/>
+          <include name="beforeClass"/>
+          <include name="AfterAnyMethod"/>
+          <include name="BeforeAnyMethod"/>
+        </methods>
+      </class> <!-- DesktopTests.CalculatorTests -->
+    </classes>
+  </test> <!-- DesktopTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

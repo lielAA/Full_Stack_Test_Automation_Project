@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Automation\automation_java_projects\Full_Stack_Test_Atomation_Project\ExecuteAllTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Electron_App_Tests.ElectronDemoApp_Screen_Size" hash-for-method="Test001_GetInfo">Test001_GetInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="DesktopTests.CalculatorTests" hash-for-method="Test001_SumTwoNumbers">Test001_SumTwoNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Web_Tests.YouTube_Change_language_and_Country" hash-for-method="Test001_verifyForDefaultEnglishLanguage">Test001_verifyForDefaultEnglishLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="API_Tests.StudentsList_CRUD" hash-for-method="Test001_verifyStudentCreated">Test001_verifyStudentCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="DesktopTests.CalculatorTests" hash-for-method="Test002_SubTwoNumbers">Test002_SubTwoNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Web_Tests.YouTube_Change_language_and_Country" hash-for-method="Test002_verifyForDefaultEnglishLanguageFromDB">Test002_verifyForDefaultEnglishLanguageFromDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="API_Tests.StudentsList_CRUD" hash-for-method="Test002_verifyStudentUpdated">Test002_verifyStudentUpdated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="DesktopTests.CalculatorTests" hash-for-method="Test003_MultiplyTwoNumbers">Test003_MultiplyTwoNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Web_Tests.YouTube_Change_language_and_Country" hash-for-method="Test003_SelectNewLanguage">Test003_SelectNewLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="API_Tests.StudentsList_CRUD" hash-for-method="Test003_verifyStudentDeleted">Test003_verifyStudentDeleted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Web_Tests.YouTube_Change_language_and_Country" hash-for-method="Test004_MoveToUserHelperIFRAME">Test004_MoveToUserHelperIFRAME</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Web_Tests.YouTube_Change_language_and_Country" hash-for-method="Test005_SearchInsideUserHelperIFRAME">Test005_SearchInsideUserHelperIFRAME</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DesktopTests.CalculatorTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test001_SumTwoNumbers">
+                  </a> <!-- Test001_SumTwoNumbers -->
+                  <span class="method-name">Test001_SumTwoNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test002_SubTwoNumbers">
+                  </a> <!-- Test002_SubTwoNumbers -->
+                  <span class="method-name">Test002_SubTwoNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test003_MultiplyTwoNumbers">
+                  </a> <!-- Test003_MultiplyTwoNumbers -->
+                  <span class="method-name">Test003_MultiplyTwoNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Electron_App_Tests.ElectronDemoApp_Screen_Size</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test001_GetInfo">
+                  </a> <!-- Test001_GetInfo -->
+                  <span class="method-name">Test001_GetInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">API_Tests.StudentsList_CRUD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test001_verifyStudentCreated">
+                  </a> <!-- Test001_verifyStudentCreated -->
+                  <span class="method-name">Test001_verifyStudentCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test002_verifyStudentUpdated">
+                  </a> <!-- Test002_verifyStudentUpdated -->
+                  <span class="method-name">Test002_verifyStudentUpdated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test003_verifyStudentDeleted">
+                  </a> <!-- Test003_verifyStudentDeleted -->
+                  <span class="method-name">Test003_verifyStudentDeleted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Web_Tests.YouTube_Change_language_and_Country</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test001_verifyForDefaultEnglishLanguage">
+                  </a> <!-- Test001_verifyForDefaultEnglishLanguage -->
+                  <span class="method-name">Test001_verifyForDefaultEnglishLanguage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test002_verifyForDefaultEnglishLanguageFromDB">
+                  </a> <!-- Test002_verifyForDefaultEnglishLanguageFromDB -->
+                  <span class="method-name">Test002_verifyForDefaultEnglishLanguageFromDB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test003_SelectNewLanguage">
+                  </a> <!-- Test003_SelectNewLanguage -->
+                  <span class="method-name">Test003_SelectNewLanguage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test004_MoveToUserHelperIFRAME">
+                  </a> <!-- Test004_MoveToUserHelperIFRAME -->
+                  <span class="method-name">Test004_MoveToUserHelperIFRAME</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test005_SearchInsideUserHelperIFRAME">
+                  </a> <!-- Test005_SearchInsideUserHelperIFRAME -->
+                  <span class="method-name">Test005_SearchInsideUserHelperIFRAME</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Automation\automation_java_projects\Full_Stack_Test_Atomation_Project\ExecuteAllTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WebTest&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;web&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Web_Tests.YouTube_Change_language_and_Country&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WebTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;APITest&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;api&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;API_Tests.StudentsList_CRUD&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- APITest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ElectronTest&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;electron&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Electron_App_Tests.ElectronDemoApp_Screen_Size&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ElectronTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DesktopTest&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;desktop&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;DesktopTests.CalculatorTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DesktopTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">WebTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">APITest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ElectronTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DesktopTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">DataBase</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test002_verifyForDefaultEnglishLanguageFromDB</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Hardcoded</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test001_verifyForDefaultEnglishLanguage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test003_SelectNewLanguage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test004_MoveToUserHelperIFRAME</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Test005_SearchInsideUserHelperIFRAME</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test003_SelectNewLanguage')
+data.setCell(0, 2, 'Web_Tests.YouTube_Change_language_and_Country')
+data.setCell(0, 3, 12901);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test004_MoveToUserHelperIFRAME')
+data.setCell(1, 2, 'Web_Tests.YouTube_Change_language_and_Country')
+data.setCell(1, 3, 7387);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test002_verifyForDefaultEnglishLanguageFromDB')
+data.setCell(2, 2, 'Web_Tests.YouTube_Change_language_and_Country')
+data.setCell(2, 3, 6681);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test002_SubTwoNumbers')
+data.setCell(3, 2, 'DesktopTests.CalculatorTests')
+data.setCell(3, 3, 2431);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test001_verifyStudentCreated')
+data.setCell(4, 2, 'API_Tests.StudentsList_CRUD')
+data.setCell(4, 3, 2212);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test003_MultiplyTwoNumbers')
+data.setCell(5, 2, 'DesktopTests.CalculatorTests')
+data.setCell(5, 3, 2147);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test001_SumTwoNumbers')
+data.setCell(6, 2, 'DesktopTests.CalculatorTests')
+data.setCell(6, 3, 2098);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test005_SearchInsideUserHelperIFRAME')
+data.setCell(7, 2, 'Web_Tests.YouTube_Change_language_and_Country')
+data.setCell(7, 3, 1861);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Test001_GetInfo')
+data.setCell(8, 2, 'Electron_App_Tests.ElectronDemoApp_Screen_Size')
+data.setCell(8, 3, 896);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test001_verifyForDefaultEnglishLanguage')
+data.setCell(9, 2, 'Web_Tests.YouTube_Change_language_and_Country')
+data.setCell(9, 3, 604);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test003_verifyStudentDeleted')
+data.setCell(10, 2, 'API_Tests.StudentsList_CRUD')
+data.setCell(10, 3, 171);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Test002_verifyStudentUpdated')
+data.setCell(11, 2, 'API_Tests.StudentsList_CRUD')
+data.setCell(11, 3, 125);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">DesktopTests.CalculatorTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Web_Tests.YouTube_Change_language_and_Country</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeClass(web)</span>
+                <span class="method-start">256 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void Web_Tests.YouTube_Change_language_and_Country.Test001_verifyForDefaultEnglishLanguage() ...)</span>
+                <span class="method-start">29138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test001_verifyForDefaultEnglishLanguage</span>
+                <span class="method-start">29150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">29755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void Web_Tests.YouTube_Change_language_and_Country.Test002_verifyForDefaultEnglishLanguageFro...)</span>
+                <span class="method-start">29759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test002_verifyForDefaultEnglishLanguageFromDB</span>
+                <span class="method-start">29760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">36441 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void Web_Tests.YouTube_Change_language_and_Country.Test003_SelectNewLanguage() throws java.io...)</span>
+                <span class="method-start">36442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test003_SelectNewLanguage</span>
+                <span class="method-start">36442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">49343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void Web_Tests.YouTube_Change_language_and_Country.Test004_MoveToUserHelperIFRAME() throws ja...)</span>
+                <span class="method-start">49344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test004_MoveToUserHelperIFRAME</span>
+                <span class="method-start">49345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">56732 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void Web_Tests.YouTube_Change_language_and_Country.Test005_SearchInsideUserHelperIFRAME() thr...)</span>
+                <span class="method-start">56733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test005_SearchInsideUserHelperIFRAME</span>
+                <span class="method-start">56734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">58595 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">58597 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">API_Tests.StudentsList_CRUD</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeClass(api)</span>
+                <span class="method-start">60098 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void API_Tests.StudentsList_CRUD.Test001_verifyStudentCreated() throws javax.xml.parsers.Pars...)</span>
+                <span class="method-start">60907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test001_verifyStudentCreated</span>
+                <span class="method-start">60908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">63120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void API_Tests.StudentsList_CRUD.Test002_verifyStudentUpdated() throws javax.xml.parsers.Pars...)</span>
+                <span class="method-start">63120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test002_verifyStudentUpdated</span>
+                <span class="method-start">63120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">63245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void API_Tests.StudentsList_CRUD.Test003_verifyStudentDeleted() throws javax.xml.parsers.Pars...)</span>
+                <span class="method-start">63245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test003_verifyStudentDeleted</span>
+                <span class="method-start">63245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">63416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">63416 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Electron_App_Tests.ElectronDemoApp_Screen_Size</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeClass(electron)</span>
+                <span class="method-start">63432 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void Electron_App_Tests.ElectronDemoApp_Screen_Size.Test001_GetInfo() throws java.io.IOExcept...)</span>
+                <span class="method-start">67059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test001_GetInfo</span>
+                <span class="method-start">67059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">67955 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">67955 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DesktopTests.CalculatorTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeClass(desktop)</span>
+                <span class="method-start">68585 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void DesktopTests.CalculatorTests.Test001_SumTwoNumbers() throws java.io.IOException,javax.xm...)</span>
+                <span class="method-start">70098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test001_SumTwoNumbers</span>
+                <span class="method-start">70098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">72196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void DesktopTests.CalculatorTests.Test002_SubTwoNumbers() throws java.io.IOException,javax.xm...)</span>
+                <span class="method-start">72196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test002_SubTwoNumbers</span>
+                <span class="method-start">72196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">74643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeAnyMethod(public void DesktopTests.CalculatorTests.Test003_MultiplyTwoNumbers() throws java.io.IOException,jav...)</span>
+                <span class="method-start">74643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test003_MultiplyTwoNumbers</span>
+                <span class="method-start">74643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterAnyMethod</span>
+                <span class="method-start">76790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">76791 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeSuite</span>
+                <span class="method-start">76902 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

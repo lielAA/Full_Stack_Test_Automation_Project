@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76617" started-at="2019-09-27T09:51:46Z" finished-at="2019-09-27T09:53:02Z">
+    <groups>
+      <group name="Hardcoded">
+        <method signature="YouTube_Change_language_and_Country.Test001_verifyForDefaultEnglishLanguage()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test001_verifyForDefaultEnglishLanguage" class="Web_Tests.YouTube_Change_language_and_Country"/>
+        <method signature="YouTube_Change_language_and_Country.Test003_SelectNewLanguage()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test003_SelectNewLanguage" class="Web_Tests.YouTube_Change_language_and_Country"/>
+        <method signature="YouTube_Change_language_and_Country.Test004_MoveToUserHelperIFRAME()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test004_MoveToUserHelperIFRAME" class="Web_Tests.YouTube_Change_language_and_Country"/>
+        <method signature="YouTube_Change_language_and_Country.Test005_SearchInsideUserHelperIFRAME()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test005_SearchInsideUserHelperIFRAME" class="Web_Tests.YouTube_Change_language_and_Country"/>
+      </group> <!-- Hardcoded -->
+      <group name="DataBase">
+        <method signature="YouTube_Change_language_and_Country.Test002_verifyForDefaultEnglishLanguageFromDB()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test002_verifyForDefaultEnglishLanguageFromDB" class="Web_Tests.YouTube_Change_language_and_Country"/>
+      </group> <!-- DataBase -->
+    </groups>
+    <test name="WebTest" duration-ms="59814" started-at="2019-09-27T09:51:46Z" finished-at="2019-09-27T09:52:45Z">
+      <class name="Web_Tests.YouTube_Change_language_and_Country">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="beforeClass" is-config="true" duration-ms="28853" started-at="2019-09-27T09:51:46Z" finished-at="2019-09-27T09:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="BeforeAnyMethod" is-config="true" duration-ms="12" started-at="2019-09-27T09:52:15Z" finished-at="2019-09-27T09:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Web_Tests.YouTube_Change_language_and_Country.Test001_verifyForDefaultEnglishLanguage() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="Test001_verifyForDefaultEnglishLanguage()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test001_verifyForDefaultEnglishLanguage" duration-ms="604" started-at="2019-09-27T09:52:15Z" finished-at="2019-09-27T09:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test001_verifyForDefaultEnglishLanguage -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="AfterAnyMethod" is-config="true" duration-ms="3" started-at="2019-09-27T09:52:15Z" finished-at="2019-09-27T09:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="BeforeAnyMethod" is-config="true" duration-ms="1" started-at="2019-09-27T09:52:15Z" finished-at="2019-09-27T09:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Web_Tests.YouTube_Change_language_and_Country.Test002_verifyForDefaultEnglishLanguageFromDB() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException,java.lang.InterruptedException,org.sikuli.script.FindFailed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="Test002_verifyForDefaultEnglishLanguageFromDB()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test002_verifyForDefaultEnglishLanguageFromDB" duration-ms="6681" started-at="2019-09-27T09:52:15Z" finished-at="2019-09-27T09:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test002_verifyForDefaultEnglishLanguageFromDB -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:22Z" finished-at="2019-09-27T09:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="BeforeAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:22Z" finished-at="2019-09-27T09:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Web_Tests.YouTube_Change_language_and_Country.Test003_SelectNewLanguage() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException,java.lang.InterruptedException,org.sikuli.script.FindFailed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="Test003_SelectNewLanguage()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test003_SelectNewLanguage" duration-ms="12901" started-at="2019-09-27T09:52:22Z" finished-at="2019-09-27T09:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test003_SelectNewLanguage -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:35Z" finished-at="2019-09-27T09:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="BeforeAnyMethod" is-config="true" duration-ms="1" started-at="2019-09-27T09:52:35Z" finished-at="2019-09-27T09:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Web_Tests.YouTube_Change_language_and_Country.Test004_MoveToUserHelperIFRAME() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException,java.lang.InterruptedException,org.sikuli.script.FindFailed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="Test004_MoveToUserHelperIFRAME()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test004_MoveToUserHelperIFRAME" duration-ms="7387" started-at="2019-09-27T09:52:35Z" finished-at="2019-09-27T09:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test004_MoveToUserHelperIFRAME -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:42Z" finished-at="2019-09-27T09:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="BeforeAnyMethod" is-config="true" duration-ms="1" started-at="2019-09-27T09:52:42Z" finished-at="2019-09-27T09:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Web_Tests.YouTube_Change_language_and_Country.Test005_SearchInsideUserHelperIFRAME() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="Test005_SearchInsideUserHelperIFRAME()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="Test005_SearchInsideUserHelperIFRAME" duration-ms="1861" started-at="2019-09-27T09:52:42Z" finished-at="2019-09-27T09:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test005_SearchInsideUserHelperIFRAME -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:44Z" finished-at="2019-09-27T09:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Web_Tests.YouTube_Change_language_and_Country@17579e0f]" name="afterClass" is-config="true" duration-ms="1472" started-at="2019-09-27T09:52:44Z" finished-at="2019-09-27T09:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Web_Tests.YouTube_Change_language_and_Country -->
+    </test> <!-- WebTest -->
+    <test name="APITest" duration-ms="3318" started-at="2019-09-27T09:52:45Z" finished-at="2019-09-27T09:52:49Z">
+      <class name="API_Tests.StudentsList_CRUD">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="beforeClass" is-config="true" duration-ms="809" started-at="2019-09-27T09:52:45Z" finished-at="2019-09-27T09:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="BeforeAnyMethod" is-config="true" duration-ms="1" started-at="2019-09-27T09:52:46Z" finished-at="2019-09-27T09:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void API_Tests.StudentsList_CRUD.Test001_verifyStudentCreated() throws javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="Test001_verifyStudentCreated()[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="Test001_verifyStudentCreated" duration-ms="2212" started-at="2019-09-27T09:52:46Z" finished-at="2019-09-27T09:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test001_verifyStudentCreated -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="BeforeAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:48Z" finished-at="2019-09-27T09:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void API_Tests.StudentsList_CRUD.Test002_verifyStudentUpdated() throws javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:48Z" finished-at="2019-09-27T09:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="Test002_verifyStudentUpdated()[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="Test002_verifyStudentUpdated" duration-ms="125" started-at="2019-09-27T09:52:48Z" finished-at="2019-09-27T09:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test002_verifyStudentUpdated -->
+        <test-method status="PASS" signature="Test003_verifyStudentDeleted()[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="Test003_verifyStudentDeleted" duration-ms="171" started-at="2019-09-27T09:52:49Z" finished-at="2019-09-27T09:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test003_verifyStudentDeleted -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="BeforeAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:49Z" finished-at="2019-09-27T09:52:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void API_Tests.StudentsList_CRUD.Test003_verifyStudentDeleted() throws javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:49Z" finished-at="2019-09-27T09:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:49Z" finished-at="2019-09-27T09:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:API_Tests.StudentsList_CRUD@3043fe0e]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:49Z" finished-at="2019-09-27T09:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- API_Tests.StudentsList_CRUD -->
+    </test> <!-- APITest -->
+    <test name="ElectronTest" duration-ms="5153" started-at="2019-09-27T09:52:49Z" finished-at="2019-09-27T09:52:54Z">
+      <class name="Electron_App_Tests.ElectronDemoApp_Screen_Size">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Electron_App_Tests.ElectronDemoApp_Screen_Size@86be70a]" name="beforeClass" is-config="true" duration-ms="3626" started-at="2019-09-27T09:52:49Z" finished-at="2019-09-27T09:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:Electron_App_Tests.ElectronDemoApp_Screen_Size@86be70a]" name="BeforeAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:52Z" finished-at="2019-09-27T09:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Electron_App_Tests.ElectronDemoApp_Screen_Size.Test001_GetInfo() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="Test001_GetInfo()[pri:0, instance:Electron_App_Tests.ElectronDemoApp_Screen_Size@86be70a]" name="Test001_GetInfo" duration-ms="896" started-at="2019-09-27T09:52:52Z" finished-at="2019-09-27T09:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test001_GetInfo -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:Electron_App_Tests.ElectronDemoApp_Screen_Size@86be70a]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:53Z" finished-at="2019-09-27T09:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Electron_App_Tests.ElectronDemoApp_Screen_Size@86be70a]" name="afterClass" is-config="true" duration-ms="630" started-at="2019-09-27T09:52:53Z" finished-at="2019-09-27T09:52:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Electron_App_Tests.ElectronDemoApp_Screen_Size -->
+    </test> <!-- ElectronTest -->
+    <test name="DesktopTest" duration-ms="8287" started-at="2019-09-27T09:52:54Z" finished-at="2019-09-27T09:53:02Z">
+      <class name="DesktopTests.CalculatorTests">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="startSuite" is-config="true" duration-ms="255" started-at="2019-09-27T09:51:45Z" finished-at="2019-09-27T09:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="beforeClass" is-config="true" duration-ms="1513" started-at="2019-09-27T09:52:54Z" finished-at="2019-09-27T09:52:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="BeforeAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:55Z" finished-at="2019-09-27T09:52:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DesktopTests.CalculatorTests.Test001_SumTwoNumbers() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="Test001_SumTwoNumbers()[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="Test001_SumTwoNumbers" duration-ms="2098" started-at="2019-09-27T09:52:55Z" finished-at="2019-09-27T09:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test001_SumTwoNumbers -->
+        <test-method status="PASS" signature="Test002_SubTwoNumbers()[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="Test002_SubTwoNumbers" duration-ms="2431" started-at="2019-09-27T09:52:58Z" finished-at="2019-09-27T09:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test002_SubTwoNumbers -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="BeforeAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:58Z" finished-at="2019-09-27T09:52:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DesktopTests.CalculatorTests.Test002_SubTwoNumbers() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:52:58Z" finished-at="2019-09-27T09:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="BeforeAnyMethod(java.lang.reflect.Method)[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="BeforeAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:53:00Z" finished-at="2019-09-27T09:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DesktopTests.CalculatorTests.Test003_MultiplyTwoNumbers() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method status="PASS" signature="Test003_MultiplyTwoNumbers()[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="Test003_MultiplyTwoNumbers" duration-ms="2147" started-at="2019-09-27T09:53:00Z" finished-at="2019-09-27T09:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test003_MultiplyTwoNumbers -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="AfterAnyMethod" is-config="true" duration-ms="0" started-at="2019-09-27T09:53:00Z" finished-at="2019-09-27T09:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="AfterAnyMethod()[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="AfterAnyMethod" is-config="true" duration-ms="1" started-at="2019-09-27T09:53:02Z" finished-at="2019-09-27T09:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAnyMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="afterClass" is-config="true" duration-ms="81" started-at="2019-09-27T09:53:02Z" finished-at="2019-09-27T09:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="closeSuite()[pri:0, instance:DesktopTests.CalculatorTests@467aecef]" name="closeSuite" is-config="true" duration-ms="799" started-at="2019-09-27T09:53:02Z" finished-at="2019-09-27T09:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSuite -->
+      </class> <!-- DesktopTests.CalculatorTests -->
+    </test> <!-- DesktopTest -->
+  </suite> <!-- Suite -->
+</testng-results>
