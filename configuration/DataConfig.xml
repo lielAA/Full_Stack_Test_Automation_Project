@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+	<AutomationType>Desktop</AutomationType> <!-- Web / Moblie / API / Desktop / Electron -->
+
+	<!-- WEB -->
+	<URL>https://www.youtube.com/</URL>
+	
+	<wait_Time>10</wait_Time>
+	
+	<browserType>chrome</browserType>
+	
+	<ChromeDriverPath>./Drivers/chromedriver.exe</ChromeDriverPath>
+	<FF_DriverPath>./Drivers/geckodriver.exe</FF_DriverPath>
+	<Edge_DriverPath>./Drivers/msedgedriver.exe</Edge_DriverPath>
+	<Opera_DriverPath>./Drivers/operadriver.exe</Opera_DriverPath>
+	<Electron_DriverPath>./Drivers/electrondriver.exe</Electron_DriverPath>
+	
+	<!-- Mobile -->
+	<UDID>1115fbf212453905</UDID>	
+	<App_Package>kr.sira.unit</App_Package>
+	<App_Activity>.SmartUnit</App_Activity>
+	<Appium_Server_Address>http://localhost:4723/wd/hub</Appium_Server_Address>
+	
+	<!-- API -->
+	<API_address>http://localhost:9000</API_address>
+	<API_Resource>/student</API_Resource>
+	
+	<!-- Electron -->
+	<Electron_App>C:\Automation\Electron_API_Demos_APP\Electron API Demos-win32-ia32\Electron API Demos.exe</Electron_App>
+	
+	<!-- Desktop -->
+	<DesktopAppID>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</DesktopAppID>	
+	<WinAppDriverURL>http://127.0.0.1:4723</WinAppDriverURL>
+	
+	<!-- mySQL DB -->
+	<DB_URL>jdbc:mysql://localhost:3306/automation_project_test</DB_URL>
+	<DB_user>root</DB_user>
+	<DB_Pass>153liel247adir</DB_Pass>
+	<DB_SetServerTimeZone>?useTimezone=true&amp;serverTimezone=UTC</DB_SetServerTimeZone>
+	
+	<!-- Reports -->
+	<ReportFilePath>C:/Automation/Reports/Full_Stack_Test_Automation_Project_Reports</ReportFilePath>
+	<ReportFileName>TestExecution_R</ReportFileName>
+
+</Configuration>
