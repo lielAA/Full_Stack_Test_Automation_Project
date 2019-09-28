@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<test name="WebTest">
+		<parameter name="platform" value="web"></parameter>
+		<classes>
+			<class name="Web_Tests.YouTube_Change_language_and_Country" />
+		</classes>
+	</test>
+	<test name="APITest">
+		<parameter name="platform" value="api"></parameter>
+		<classes>
+			<class name="API_Tests.StudentsList_CRUD" />
+		</classes>
+	</test>
+	<test name="ElectronTest">
+		<parameter name="platform" value="electron"></parameter>
+		<classes>
+			<class name="Electron_App_Tests.ElectronDemoApp_Screen_Size" />
+		</classes>
+	</test>
+	<test name="DesktopTest">
+		<parameter name="platform" value="desktop"></parameter>
+		<classes>
+			<class name="DesktopTests.CalculatorTests" />
+		</classes>
+	</test>
+</suite>

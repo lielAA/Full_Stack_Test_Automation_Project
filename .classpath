@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mySQL"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/winAppDriver"/>
+	<classpathentry kind="src" path="infrastructure"/>
+	<classpathentry kind="src" path="Test_Cases"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ExtentReport"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Sikuli"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Appium"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Selenium_3.5.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/restAssured"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/WinAppDriver"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
