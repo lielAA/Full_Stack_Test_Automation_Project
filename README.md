@@ -20,7 +20,7 @@ This Test Automation project, based on Java and TestNG framework, Developed for 
 - Server - REST API with RestAssured - students.jar
 - Electron Application - ElectronDriver - Electron API Demos.exe
 - Windows Desktop Application - WinAppDriver - Calculator.exe
-- Data-Base Integration --> mySQL server & mySQL Workbench.
-- CI Testing --> Jenkins.
-- GUI (Compare Images Engine) Automation tool --> SikuliX.
+- Data-Base Integration - mySQL server & mySQL Workbench.
+- CI Testing - Jenkins.
+- GUI (Compare Images Engine) Automation tool - SikuliX.
 
