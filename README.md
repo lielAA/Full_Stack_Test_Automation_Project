@@ -11,7 +11,7 @@ This Test Automation project, based on Java and TestNG framework, Developed for 
 - Working with external .XML and .BAT files.
 - Generating external clarity Test report with relevant ScreenShots.
 
-## Testing Environments & Software Dependencies & Application
+## Testing Environments & Software Dependencies & Applications under Testing
 - Website - Selenium - https://www.youtube.com
   - **Chrome** browser with *chromedriver.exe*
   - **Firefox** browser with *geckodriver.exe*
